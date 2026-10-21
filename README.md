@@ -1,3 +1,9 @@
+[![GitHub license](https://img.shields.io/github/license/giraone/s3-kit)](https://github.com/giraone/s3-kit/blob/master/LICENSE)
+[![Maven Central](https://img.shields.io/badge/Maven%20Central-1.0.0-blue)](https://mvnrepository.com/artifact/com.giraone.s3/s3-kit)
+[![GitHub issues](https://img.shields.io/github/issues/giraone/s3-kit)](https://github.com/giraone/s3-kit/issues)
+[![GitHub stars](https://img.shields.io/github/stars/giraone/s3-kit)](https://github.com/giraone/s3-kit/stargazers)
+[![Platform](https://img.shields.io/badge/platform-jre25%2B-blue)](https://github.com/giraone/s3-kit/pom.xml)
+
 # s3kit - a useful S3 client lib based on AWS SDK
 
 Java library for S3 access, based on the synchronous AWS SDK (with Apache5HttpClient) for Java (`S3Client`).
@@ -64,4 +70,4 @@ concurrency gauges to Micrometer.
 
 ## Demo
 
-See [s3-kit-usage](../s3-kit-usage) for a Spring Boot REST demo application using s3kit.
+See [s3-kit-usage](https://github.com/giraone/s3-kit-usage) for a Spring Boot REST demo application using s3kit.
