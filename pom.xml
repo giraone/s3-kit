@@ -7,13 +7,13 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>4.1.1</version>
+    <version>4.1.2</version>
     <relativePath/>
   </parent>
 
   <groupId>com.giraone.s3</groupId>
   <artifactId>s3kit</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
 
   <name>s3kit</name>
   <description>Java library for S3 access, based AWS SDK</description>
@@ -26,7 +26,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- Runtime dependency versions -->
-    <aws-sdk.version>2.57.1</aws-sdk.version>
+    <aws-sdk.version>2.57.8</aws-sdk.version>
     <aws-apache-client.version>2.56.0</aws-apache-client.version>
     <aws-sdk-crt.version>0.49.0</aws-sdk-crt.version>
     <!-- Test dependency versions -->
